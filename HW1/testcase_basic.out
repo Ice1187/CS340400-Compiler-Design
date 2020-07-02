@@ -1,0 +1,140 @@
+#token key:void
+#token key:int
+#token key:double
+#token id:bool
+#token key:char
+#token id:null
+#token key:for
+#token key:while
+#token key:do
+#token key:if
+#token key:else
+#token key:switch
+#token key:return
+#token key:break
+1:void int double bool char null for while do if else switch return break
+#token key:continue
+#token key:const
+#token id:true
+#token id:false
+#token key:struct
+#token key:case
+#token key:default
+2:continue const true false struct case default
+#token key:fclose
+#token key:clearerr
+#token key:feof
+#token key:ferror
+#token key:fflush
+#token key:fgetpos
+#token key:fopen
+#token key:fread
+#token key:freopen
+#token key:fseek
+#token key:fsetpos
+#token key:ftell
+#token key:fwrite
+#token key:remove
+3:fclose clearerr feof ferror fflush fgetpos fopen fread freopen fseek fsetpos ftell fwrite remove 
+#token key:rename
+#token key:rewind
+#token key:setbuf
+#token key:setvbuf
+#token key:tmpfile
+#token key:tmpnam
+#token key:fprintf
+#token key:printf
+#token key:sprintf
+#token key:vfprintf
+#token key:vprintf
+#token key:vsprintf
+#token key:fscanf
+4:rename rewind setbuf setvbuf tmpfile tmpnam fprintf printf sprintf vfprintf vprintf vsprintf fscanf
+#token key:scanf
+#token key:sscanf
+#token key:fgetc
+#token key:fgets
+#token key:fputc
+#token key:fputs
+#token key:getc
+#token key:getchar
+#token key:gets
+#token key:putc
+#token key:putchar
+#token key:puts
+#token key:ungetc
+#token key:perror
+5:scanf sscanf fgetc fgets fputc fputs getc getchar gets putc putchar puts ungetc perror
+#token op:+
+#token op:-
+#token op:*
+#token op:/
+#token op:%
+#token op:++
+#token op:--
+#token op:<
+#token op:<=
+#token op:>
+#token op:>=
+#token op:==
+#token op:!=
+#token op:=
+#token op:&&
+#token op:||
+#token op:!
+6:+ - * / % ++ -- < <= > >= == != = && || !
+#token punc::
+#token punc:;
+#token punc:,
+#token punc:.
+#token punc:[
+#token punc:]
+#token punc:(
+#token punc:)
+#token punc:{
+#token punc:}
+7:: ; , . [] () {}
+#token integer:1
+#token integer:2
+#token integer:3
+#token integer:4
+#token integer:567
+#token integer:8910
+8:1 2 3 4 567 8910  
+#token double:2.3
+#token double:3.3
+#token double:55.1
+#token double:0.2
+#token double:0.8888
+#token double:.2323
+9:2.3 3.3 55.1 0.2 0.8888 .2323
+#token char:'a'
+#token char:'b'
+#token char:'c'
+#token char:'d'
+#token char:'z'
+#token char:'@'
+#token char:'#'
+10:'a' 'b' 'c' 'd' 'z' '@' '#'
+#token id:Please
+#token id:make
+#token id:sure
+#token id:your
+#token id:output
+#token id:format
+#token id:is
+#token id:correct
+#token id:or
+#token id:you
+#token id:will
+#token id:receive
+#token id:zero
+#token id:credit
+11:Please make sure your output format is correct or you will receive zero credit
+#token id:You
+#token id:have
+#token id:been
+#token id:warned
+12:You have been warned
+#token id:Seriously
+13:Seriously
